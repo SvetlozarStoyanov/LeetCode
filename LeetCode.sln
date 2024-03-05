@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate Parenthesis", "Generate Parentheses\Generate Parenthesis.csproj", "{42551858-66B3-44F0-A5D1-5A6A0A9D8259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate Parenthesis", "Generate Parentheses\Generate Parenthesis.csproj", "{42551858-66B3-44F0-A5D1-5A6A0A9D8259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Palindromic Substring", "Longest Palindromic Substring\Longest Palindromic Substring.csproj", "{98F22AF8-FFC2-4E08-B4F8-46FE071926A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{42551858-66B3-44F0-A5D1-5A6A0A9D8259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42551858-66B3-44F0-A5D1-5A6A0A9D8259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42551858-66B3-44F0-A5D1-5A6A0A9D8259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F22AF8-FFC2-4E08-B4F8-46FE071926A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F22AF8-FFC2-4E08-B4F8-46FE071926A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F22AF8-FFC2-4E08-B4F8-46FE071926A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F22AF8-FFC2-4E08-B4F8-46FE071926A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
