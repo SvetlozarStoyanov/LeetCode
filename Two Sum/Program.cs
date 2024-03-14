@@ -10,15 +10,15 @@
 
         public static int[] TwoSum(int[] nums, int target)
         {
-            for (int i = 0; i < nums.Length - 1; i++)
+            var dictionary = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
             {
-                for (int j = i + 1; j < nums.Length; j++)
+                var diff = target - nums[i];
+                if (dictionary.ContainsKey(nums[i]))
                 {
-                    if (nums[i] + nums[j] == target)
-                    {
-                        return new int[] { i, j };
-                    }
+                    return new int[] { dictionary[nums[i]] , i};
                 }
+                dictionary[diff] = i;
             }
             return new int[0];
         }
