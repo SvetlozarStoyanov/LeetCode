@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kth Largest Element in an A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Sum", "4Sum\4Sum.csproj", "{58DF4959-1BA3-437A-8DDD-9D321BDD45FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum", "Two Sum\Two Sum.csproj", "{6A79AE2D-A003-4AB8-82D6-999747233E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.csproj", "{6A79AE2D-A003-4AB8-82D6-999747233E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{5EFCD9EF-BE98-4215-B346-EF6C781019B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "3Sum\3Sum.csproj", "{5EFCD9EF-BE98-4215-B346-EF6C781019B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum II - Input Array Is Sorted", "Two Sum II - Input Array Is Sorted\Two Sum II - Input Array Is Sorted.csproj", "{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum II - Input Array Is Sorted", "Two Sum II - Input Array Is Sorted\Two Sum II - Input Array Is Sorted.csproj", "{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Number", "Palindrome Number\Palindrome Number.csproj", "{48CDD352-73DD-45B1-8BFD-312ABA29B688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
