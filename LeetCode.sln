@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "3Sum\3Sum.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum II - Input Array Is Sorted", "Two Sum II - Input Array Is Sorted\Two Sum II - Input Array Is Sorted.csproj", "{04D91B30-BA0F-45EA-ADFE-512E1F9ED080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Number", "Palindrome Number\Palindrome Number.csproj", "{48CDD352-73DD-45B1-8BFD-312ABA29B688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome Number", "Palindrome Number\Palindrome Number.csproj", "{48CDD352-73DD-45B1-8BFD-312ABA29B688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{A00CC779-0FDD-4B0F-A8AD-C006BF5888AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48CDD352-73DD-45B1-8BFD-312ABA29B688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00CC779-0FDD-4B0F-A8AD-C006BF5888AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00CC779-0FDD-4B0F-A8AD-C006BF5888AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00CC779-0FDD-4B0F-A8AD-C006BF5888AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00CC779-0FDD-4B0F-A8AD-C006BF5888AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
