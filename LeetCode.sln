@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Duplicate II", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Duplicate III", "Contains Duplicate III\Contains Duplicate III.csproj", "{189E2853-A2F2-4C19-8EE0-345E618A8C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power of Two", "Power of Two\Power of Two.csproj", "{A61330C9-905C-4C15-BA2E-49FBED8DABBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Power of Two", "Power of Two\Power of Two.csproj", "{A61330C9-905C-4C15-BA2E-49FBED8DABBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Linked List", "Palindrome Linked List\Palindrome Linked List.csproj", "{5372870A-A334-45E5-AFAE-51F1F8E98CBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{A61330C9-905C-4C15-BA2E-49FBED8DABBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A61330C9-905C-4C15-BA2E-49FBED8DABBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A61330C9-905C-4C15-BA2E-49FBED8DABBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5372870A-A334-45E5-AFAE-51F1F8E98CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5372870A-A334-45E5-AFAE-51F1F8E98CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5372870A-A334-45E5-AFAE-51F1F8E98CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5372870A-A334-45E5-AFAE-51F1F8E98CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
