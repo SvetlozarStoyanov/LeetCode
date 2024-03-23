@@ -15,37 +15,28 @@
 
         public int Pop()
         {
-            var tempQueue = new Queue<int>();
-            var removedElement = 0;
-            while (queue.Count > 0)
+            var initialQueueCount = queue.Count;
+            for (int i = 0; i < initialQueueCount - 1; i++)
             {
-                removedElement = queue.Dequeue();
-                if (queue.Count > 0)
-                {
-                    tempQueue.Enqueue(removedElement);
-                }
-
+                var removedElement = queue.Dequeue();
+                queue.Enqueue(removedElement);
             }
-            queue = tempQueue;
-            return removedElement;
+            return queue.Dequeue();
         }
 
         public int Top()
         {
-            var tempQueue = new Queue<int>();
+            var initialQueueCount = queue.Count;
             var topElement = 0;
-            while (queue.Count > 0)
+            for (int i = 0; i < initialQueueCount; i++)
             {
                 var removedElement = queue.Dequeue();
-                tempQueue.Enqueue(removedElement);
-
-                if (queue.Count == 0)
+                queue.Enqueue(removedElement);
+                if (i == initialQueueCount - 1)
                 {
                     topElement = removedElement;
                 }
-
             }
-            queue = tempQueue;
             return topElement;
         }
 
