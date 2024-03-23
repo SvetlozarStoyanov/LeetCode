@@ -1,71 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Implement_Queue_using_Stacks
+﻿namespace Implement_Queue_using_Stacks
 {
     public class MyQueue
     {
-        private Stack<int> stack;
+        private Stack<int> stackOne;
+        private Stack<int> stackTwo;
 
         public MyQueue()
         {
-            stack = new Stack<int>();
+            stackOne = new Stack<int>();
+            stackTwo = new Stack<int>();
         }
 
         public void Push(int x)
         {
-            stack.Push(x);
+            stackOne.Push(x);
         }
 
         public int Pop()
         {
-            var tempStack = new Stack<int>();
-            var dequeuedElement = 0;
-            while (stack.Count > 0)
+            if (stackTwo.Count == 0)
             {
-                var removedElement = stack.Pop();
-                if (stack.Count > 0)
+                while (stackOne.Count > 0)
                 {
-                    tempStack.Push(removedElement);
-                }
-                else
-                {
-                    dequeuedElement = removedElement;
+                    stackTwo.Push(stackOne.Pop());
                 }
             }
-            while (tempStack.Count > 0)
-            {
-                stack.Push(tempStack.Pop());
-            }
-            return dequeuedElement;
+            return stackTwo.Pop();
         }
 
         public int Peek()
         {
-            var tempStack = new Stack<int>();
-            var topElement = 0;
-            while (stack.Count > 0)
+            if (stackTwo.Count == 0)
             {
-                var removedElement = stack.Pop();
-                tempStack.Push(removedElement);
-                if (stack.Count == 0)
+                while (stackOne.Count > 0)
                 {
-                    topElement = removedElement;
+                    stackTwo.Push(stackOne.Pop());
                 }
             }
-            while (tempStack.Count > 0)
-            {
-                stack.Push(tempStack.Pop());
-            }
-            return topElement;
+            return stackTwo.Peek();
         }
 
         public bool Empty()
         {
-            return stack.Count == 0;
+            return stackOne.Count == 0 && stackTwo.Count == 0;
         }
     }
 }
