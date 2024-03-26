@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Power of Two", "Power of Tw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome Linked List", "Palindrome Linked List\Palindrome Linked List.csproj", "{5372870A-A334-45E5-AFAE-51F1F8E98CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement Stack using Queues", "Implement Stack using Queues\Implement Stack using Queues.csproj", "{F18B19AF-0C49-49D8-9C44-76AE2CF03C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implement Stack using Queues", "Implement Stack using Queues\Implement Stack using Queues.csproj", "{F18B19AF-0C49-49D8-9C44-76AE2CF03C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.csproj", "{E6E8BF1C-CB4B-425B-9221-FDDF902C7B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implement Queue using Stacks", "Implement Queue using Stacks\Implement Queue using Stacks.csproj", "{E6E8BF1C-CB4B-425B-9221-FDDF902C7B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{7E57240A-2B57-4EF0-BC8C-4E04A1768B92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{E6E8BF1C-CB4B-425B-9221-FDDF902C7B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6E8BF1C-CB4B-425B-9221-FDDF902C7B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6E8BF1C-CB4B-425B-9221-FDDF902C7B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E57240A-2B57-4EF0-BC8C-4E04A1768B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E57240A-2B57-4EF0-BC8C-4E04A1768B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E57240A-2B57-4EF0-BC8C-4E04A1768B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E57240A-2B57-4EF0-BC8C-4E04A1768B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
