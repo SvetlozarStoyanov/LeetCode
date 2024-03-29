@@ -81,7 +81,7 @@
             //        {
             //            waterCount += maxLeft - height[left];
             //        }
-            //        if (height[left] > maxLeft)
+            //        else
             //        {
             //            maxLeft = height[left];
             //        }
@@ -93,7 +93,7 @@
             //        {
             //            waterCount += maxRight - height[right];
             //        }
-            //        if (height[right] > maxRight)
+            //        else
             //        {
             //            maxRight = height[right];
             //        }
