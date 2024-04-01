@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Parentheses", "Valid 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Words in a String", "Reverse Words in a String\Reverse Words in a String.csproj", "{7D46F71E-CC06-488B-9833-AB85E21B9F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapping Rain Water", "Trapping Rain Water\Trapping Rain Water.csproj", "{E04292D8-8610-4315-A89A-40416B7C0405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trapping Rain Water", "Trapping Rain Water\Trapping Rain Water.csproj", "{E04292D8-8610-4315-A89A-40416B7C0405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House Robber", "House Robber\House Robber.csproj", "{CC67081E-0B68-496A-A6B7-020734943317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{E04292D8-8610-4315-A89A-40416B7C0405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E04292D8-8610-4315-A89A-40416B7C0405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E04292D8-8610-4315-A89A-40416B7C0405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC67081E-0B68-496A-A6B7-020734943317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC67081E-0B68-496A-A6B7-020734943317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC67081E-0B68-496A-A6B7-020734943317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC67081E-0B68-496A-A6B7-020734943317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
