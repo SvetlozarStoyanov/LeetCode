@@ -53,7 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Length of Last Word", "Leng
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{01FE8F81-7212-4F16-85A9-A89473378A71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Element", "Remove Element\Remove Element.csproj", "{F3ABC7AE-B8BF-4267-B27C-F69BB3A93291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Element", "Remove Element\Remove Element.csproj", "{F3ABC7AE-B8BF-4267-B27C-F69BB3A93291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort List", "Sort List\Sort List.csproj", "{B163EA9C-EE93-4F61-8F0E-697135A83246}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{E3A34B2D-6818-4640-A422-CDCE70ADD217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Nesting Depth of the Parentheses", "Maximum Nesting Depth of the Parentheses\Maximum Nesting Depth of the Parentheses.csproj", "{F43EB0DB-E0DA-47A0-8F0E-9C1507F76298}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{F3ABC7AE-B8BF-4267-B27C-F69BB3A93291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3ABC7AE-B8BF-4267-B27C-F69BB3A93291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3ABC7AE-B8BF-4267-B27C-F69BB3A93291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B163EA9C-EE93-4F61-8F0E-697135A83246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B163EA9C-EE93-4F61-8F0E-697135A83246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B163EA9C-EE93-4F61-8F0E-697135A83246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B163EA9C-EE93-4F61-8F0E-697135A83246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A34B2D-6818-4640-A422-CDCE70ADD217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A34B2D-6818-4640-A422-CDCE70ADD217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A34B2D-6818-4640-A422-CDCE70ADD217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A34B2D-6818-4640-A422-CDCE70ADD217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43EB0DB-E0DA-47A0-8F0E-9C1507F76298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43EB0DB-E0DA-47A0-8F0E-9C1507F76298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43EB0DB-E0DA-47A0-8F0E-9C1507F76298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43EB0DB-E0DA-47A0-8F0E-9C1507F76298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
