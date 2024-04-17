@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        private static int startingIndexIsOneCounter = 0;
+        private static int skippedIndex = -1;
         static void Main(string[] args)
         {
             var firstTestArray = new int[] { 17, 13, 11, 2, 3, 5, 7 };
@@ -27,6 +29,35 @@
             var ascOrderedDeck = deck.OrderBy(x => x).ToList();
             var resultArray = new int[deck.Length];
             var reachedIndex = 0;
+            #region NeetCode's Solution
+            //var indexQueue = new Queue<int>();
+            //for (int i = 0; i < resultArray.Length; i += 2)
+            //{
+            //    resultArray[i] = ascOrderedDeck[reachedIndex++];
+            //    if (i + 1 < resultArray.Length)
+            //    {
+            //        indexQueue.Enqueue(i + 1);
+            //    }
+            //}
+            //if (indexQueue.Count > 0)
+            //{
+            //    if (resultArray[resultArray.Length - 1] != 0)
+            //    {
+            //        indexQueue.Enqueue(indexQueue.Dequeue());
+            //    }
+            //    while (true)
+            //    {
+            //        resultArray[indexQueue.Dequeue()] = ascOrderedDeck[reachedIndex++];
+            //        if (indexQueue.Count == 0)
+            //        {
+            //            break;
+            //        }
+            //        indexQueue.Enqueue(indexQueue.Dequeue());
+            //    }
+            //}
+            #endregion
+
+            #region My Solution
             for (int i = 0; i < resultArray.Length; i += 2)
             {
                 resultArray[i] = ascOrderedDeck[reachedIndex++];
@@ -39,10 +70,11 @@
             {
                 if (resultArray[i] == 0)
                 {
-                    resultArray[i] = ascOrderedDeck[ascOrderedDeck.Count -1];
+                    resultArray[i] = ascOrderedDeck[ascOrderedDeck.Count - 1];
                     break;
                 }
             }
+            #endregion
             return resultArray;
         }
 
@@ -55,6 +87,7 @@
 
             var subArray = new int[ascOrderedDeck.Length - reachedIndex];
             var startingIndexOfSubArray = inputArray[inputArray.Length - 1] == 0 ? 0 : 1;
+
             for (int i = startingIndexOfSubArray; i < subArray.Length; i += 2)
             {
                 subArray[i] = ascOrderedDeck[reachedIndex++];
