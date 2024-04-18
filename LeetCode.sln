@@ -63,9 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Nesting Depth of th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Make The String Great", "Make The String Great\Make The String Great.csproj", "{A2986279-CD39-42F5-BD2F-C8C89A04208E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Students Unable to Eat Lunch", "Number of Students Unable to Eat Lunch\Number of Students Unable to Eat Lunch.csproj", "{0A244408-0E3B-478F-9884-D24C68C9C8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Students Unable to Eat Lunch", "Number of Students Unable to Eat Lunch\Number of Students Unable to Eat Lunch.csproj", "{0A244408-0E3B-478F-9884-D24C68C9C8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reveal Cards In Increasing Order", "Reveal Cards In Increasing Order\Reveal Cards In Increasing Order.csproj", "{31592548-F936-4548-A492-8D4E3FED1899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reveal Cards In Increasing Order", "Reveal Cards In Increasing Order\Reveal Cards In Increasing Order.csproj", "{31592548-F936-4548-A492-8D4E3FED1899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verifying an Alien Dictionary", "Verifying an Alien Dictionary\Verifying an Alien Dictionary.csproj", "{071DDA67-94D6-454B-A35F-9A9D8D2A9602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{31592548-F936-4548-A492-8D4E3FED1899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31592548-F936-4548-A492-8D4E3FED1899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31592548-F936-4548-A492-8D4E3FED1899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071DDA67-94D6-454B-A35F-9A9D8D2A9602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071DDA67-94D6-454B-A35F-9A9D8D2A9602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071DDA67-94D6-454B-A35F-9A9D8D2A9602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071DDA67-94D6-454B-A35F-9A9D8D2A9602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
