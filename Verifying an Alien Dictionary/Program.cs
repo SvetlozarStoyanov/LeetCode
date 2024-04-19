@@ -1,4 +1,6 @@
-﻿namespace Verifying_an_Alien_Dictionary
+﻿using System;
+
+namespace Verifying_an_Alien_Dictionary
 {
     internal class Program
     {
@@ -24,13 +26,11 @@
 
         public static bool IsAlienSorted(string[] words, string order)
         {
-            var queue = new Queue<string>(words);
-            var currWord = queue.Dequeue();
-
-            while (queue.Count > 0)
+            for (int i = 0; i < words.Length - 1; i++)
             {
+                var currWord = words[i];
+                var nextWord = words[i + 1];
                 var index = 0;
-                var nextWord = queue.Dequeue();
                 if (order.IndexOf(currWord[index]) > order.IndexOf(nextWord[index]))
                 {
                     return false;
@@ -58,7 +58,6 @@
                         }
                     }
                 }
-                currWord = nextWord;
             }
 
             return true;
