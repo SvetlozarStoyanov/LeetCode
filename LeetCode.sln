@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verifying an Alien Dictiona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squares of a Sorted Array", "Squares of a Sorted Array\Squares of a Sorted Array.csproj", "{3CEBF7C3-4812-4054-9420-46606179275F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open the Lock", "Open the Lock\Open the Lock.csproj", "{2C1BE5D6-645A-41DD-B150-8889B637C307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open the Lock", "Open the Lock\Open the Lock.csproj", "{2C1BE5D6-645A-41DD-B150-8889B637C307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smallest String Starting From Leaf", "Smallest String Starting From Leaf\Smallest String Starting From Leaf.csproj", "{076FA81D-FF6B-47F7-A682-F8E928E7B79D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{2C1BE5D6-645A-41DD-B150-8889B637C307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C1BE5D6-645A-41DD-B150-8889B637C307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C1BE5D6-645A-41DD-B150-8889B637C307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076FA81D-FF6B-47F7-A682-F8E928E7B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076FA81D-FF6B-47F7-A682-F8E928E7B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076FA81D-FF6B-47F7-A682-F8E928E7B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076FA81D-FF6B-47F7-A682-F8E928E7B79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
