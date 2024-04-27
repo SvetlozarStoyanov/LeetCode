@@ -75,9 +75,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open the Lock", "Open the L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smallest String Starting From Leaf", "Smallest String Starting From Leaf\Smallest String Starting From Leaf.csproj", "{076FA81D-FF6B-47F7-A682-F8E928E7B79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-th Tribonacci Number", "N-th Tribonacci Number\N-th Tribonacci Number.csproj", "{9F2130A4-B114-4939-9A5D-4FC3E63B54C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N-th Tribonacci Number", "N-th Tribonacci Number\N-th Tribonacci Number.csproj", "{9F2130A4-B114-4939-9A5D-4FC3E63B54C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Number", "Fibonacci Number\Fibonacci Number.csproj", "{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci Number", "Fibonacci Number\Fibonacci Number.csproj", "{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Combinations of a Phone Number", "Letter Combinations of a Phone Number\Letter Combinations of a Phone Number.csproj", "{A78C9380-8E76-45AB-ACB8-147CF458A5DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
