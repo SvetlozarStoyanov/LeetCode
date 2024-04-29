@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N-th Tribonacci Number", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci Number", "Fibonacci Number\Fibonacci Number.csproj", "{2B2A7BF6-3C75-4FB7-830A-A6DC1A04FB41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Combinations of a Phone Number", "Letter Combinations of a Phone Number\Letter Combinations of a Phone Number.csproj", "{A78C9380-8E76-45AB-ACB8-147CF458A5DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Letter Combinations of a Phone Number", "Letter Combinations of a Phone Number\Letter Combinations of a Phone Number.csproj", "{A78C9380-8E76-45AB-ACB8-147CF458A5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product of Array Except Self", "Product of Array Except Self\Product of Array Except Self.csproj", "{0D0A6E0B-D334-4D5F-84BA-24094AAAE01E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78C9380-8E76-45AB-ACB8-147CF458A5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0A6E0B-D334-4D5F-84BA-24094AAAE01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0A6E0B-D334-4D5F-84BA-24094AAAE01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0A6E0B-D334-4D5F-84BA-24094AAAE01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0A6E0B-D334-4D5F-84BA-24094AAAE01E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
