@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product of Array Except Sel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotting Oranges", "Rotting Oranges\Rotting Oranges.csproj", "{5BE6C2DD-2817-41E9-97DB-F3D27E896A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First Letter to Appear Twice", "First Letter to Appear Twice\First Letter to Appear Twice.csproj", "{0AEA59D2-1DC3-4C51-8755-BD64C4C993BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Letter to Appear Twice", "First Letter to Appear Twice\First Letter to Appear Twice.csproj", "{0AEA59D2-1DC3-4C51-8755-BD64C4C993BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find the Index of the First Occurrence in a String", "Find the Index of the First Occurrence in a String\Find the Index of the First Occurrence in a String.csproj", "{0113F0D6-016A-490E-BD61-DD5893EB10E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{0AEA59D2-1DC3-4C51-8755-BD64C4C993BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AEA59D2-1DC3-4C51-8755-BD64C4C993BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AEA59D2-1DC3-4C51-8755-BD64C4C993BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0113F0D6-016A-490E-BD61-DD5893EB10E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0113F0D6-016A-490E-BD61-DD5893EB10E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0113F0D6-016A-490E-BD61-DD5893EB10E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0113F0D6-016A-490E-BD61-DD5893EB10E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
