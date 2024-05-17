@@ -89,7 +89,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Letter to Appear Twic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find the Index of the First Occurrence in a String", "Find the Index of the First Occurrence in a String\Find the Index of the First Occurrence in a String.csproj", "{0113F0D6-016A-490E-BD61-DD5893EB10E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Common Factors", "Number of Common Factors\Number of Common Factors.csproj", "{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Common Factors", "Number of Common Factors\Number of Common Factors.csproj", "{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection of Two Linked Lists", "Intersection of Two Linked Lists\Intersection of Two Linked Lists.csproj", "{567ECED8-C80B-4D57-9A6B-956C3BC27D52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
