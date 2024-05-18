@@ -8,49 +8,34 @@
             public int val;
             public ListNode next;
             public ListNode(int x)
-            { 
-                val = x; 
+            {
+                val = x;
             }
         }
 
         static void Main(string[] args)
         {
-            
+
         }
 
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
-            var foundValues = new HashSet<ListNode>();
-            while (headA != null && headB != null)
+            var visited = new HashSet<ListNode>();
+            var headATail = headA;
+            while (headATail != null)
             {
-                if (foundValues.Contains(headA))
-                {
-                    return headA;
-                }
-                foundValues.Add(headA);
-                if (foundValues.Contains(headB))
-                {
-                    return headB;
-                }
-                foundValues.Add(headB);
-                headA = headA.next;
-                headB = headB.next;
+                visited.Add(headATail);
+                headATail = headATail.next;
             }
-            while (headA != null)
+            var headBTail = headB;
+            while (headBTail != null)
             {
-                if (foundValues.Contains(headA))
+                if (visited.Contains(headBTail))
                 {
-                    return headA;
+                    return headBTail;
                 }
-                headA = headA.next;
-            }
-            while (headB != null)
-            {
-                if (foundValues.Contains(headB))
-                {
-                    return headB;
-                }
-                headB = headB.next;
+                visited.Add(headBTail);
+                headBTail = headBTail.next;
             }
             return null;
         }
