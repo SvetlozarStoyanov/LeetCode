@@ -91,7 +91,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find the Index of the First
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Common Factors", "Number of Common Factors\Number of Common Factors.csproj", "{DFAEE813-B09C-47EB-B9EB-4E504E4410D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection of Two Linked Lists", "Intersection of Two Linked Lists\Intersection of Two Linked Lists.csproj", "{567ECED8-C80B-4D57-9A6B-956C3BC27D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection of Two Linked Lists", "Intersection of Two Linked Lists\Intersection of Two Linked Lists.csproj", "{567ECED8-C80B-4D57-9A6B-956C3BC27D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Sorted Array", "Merge Sorted Array\Merge Sorted Array.csproj", "{8C9DE9F2-E173-41A0-B772-D3AEF3648D5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +281,10 @@ Global
 		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567ECED8-C80B-4D57-9A6B-956C3BC27D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9DE9F2-E173-41A0-B772-D3AEF3648D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9DE9F2-E173-41A0-B772-D3AEF3648D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9DE9F2-E173-41A0-B772-D3AEF3648D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9DE9F2-E173-41A0-B772-D3AEF3648D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
