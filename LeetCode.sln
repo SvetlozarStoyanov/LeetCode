@@ -97,7 +97,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Sorted Array", "Merge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validate Binary Search Tree", "Validate Binary Search Tree\Validate Binary Search Tree.csproj", "{B796E09C-3430-4270-8392-F734FC9E8F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{4BB2254C-B9DF-4CB1-AC0C-FDFC66D7029C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{4BB2254C-B9DF-4CB1-AC0C-FDFC66D7029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral Matrix II", "Spiral Matrix II\Spiral Matrix II.csproj", "{3AC9ABEA-E9FB-4E71-A4A1-399B0A458457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{4BB2254C-B9DF-4CB1-AC0C-FDFC66D7029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB2254C-B9DF-4CB1-AC0C-FDFC66D7029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB2254C-B9DF-4CB1-AC0C-FDFC66D7029C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC9ABEA-E9FB-4E71-A4A1-399B0A458457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC9ABEA-E9FB-4E71-A4A1-399B0A458457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC9ABEA-E9FB-4E71-A4A1-399B0A458457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC9ABEA-E9FB-4E71-A4A1-399B0A458457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
