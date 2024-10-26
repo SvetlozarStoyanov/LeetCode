@@ -109,7 +109,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divide Two Integers", "Divi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kth Largest Sum in a Binary Tree", "Kth Largest Sum in a Binary Tree\Kth Largest Sum in a Binary Tree.csproj", "{6A19078F-F13D-4702-9724-247A68DB09C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow(x, n)", "Pow(x, n)\Pow(x, n).csproj", "{F49BB187-0EC5-435D-9A15-29FA735A222B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pow(x, n)", "Pow(x, n)\Pow(x, n).csproj", "{F49BB187-0EC5-435D-9A15-29FA735A222B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climbing Stairs", "Climbing Stairs\Climbing Stairs.csproj", "{A8721848-B470-47BC-A93A-D5B39A95F997}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{F49BB187-0EC5-435D-9A15-29FA735A222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F49BB187-0EC5-435D-9A15-29FA735A222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F49BB187-0EC5-435D-9A15-29FA735A222B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8721848-B470-47BC-A93A-D5B39A95F997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8721848-B470-47BC-A93A-D5B39A95F997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8721848-B470-47BC-A93A-D5B39A95F997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8721848-B470-47BC-A93A-D5B39A95F997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
