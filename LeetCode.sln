@@ -115,7 +115,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Climbing Stairs", "Climbing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Same Tree", "Same Tree\Same Tree.csproj", "{F6F3B0B8-AB48-47F3-8A0F-8B5088E594D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Inorder Traversal", "Binary Tree Inorder Traversal\Binary Tree Inorder Traversal.csproj", "{41AC637B-1CCA-4FAB-85D5-55B9CE7D6DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Tree Inorder Traversal", "Binary Tree Inorder Traversal\Binary Tree Inorder Traversal.csproj", "{41AC637B-1CCA-4FAB-85D5-55B9CE7D6DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,10 @@ Global
 		{41AC637B-1CCA-4FAB-85D5-55B9CE7D6DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41AC637B-1CCA-4FAB-85D5-55B9CE7D6DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41AC637B-1CCA-4FAB-85D5-55B9CE7D6DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
