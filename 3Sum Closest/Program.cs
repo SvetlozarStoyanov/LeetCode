@@ -4,37 +4,50 @@
     {
         static void Main(string[] args)
         {
-            var nums = new int[] { -1, 2, 1, -4 };
-            var target = 1;
+            var nums = new int[] { -4, 2, 2, 3, 3, 3 };
+            var target = 0;
             Console.WriteLine(ThreeSumClosest(nums, target));
         }
 
         public static int ThreeSumClosest(int[] nums, int target)
         {
-            var closestSum = nums[0] + nums[1] + nums[2];
+            nums = nums.OrderBy(x => x).ToArray();
+            var closestSum = nums[0] + nums[1] + nums[nums.Length - 1];
 
-            var currSum = 0;
             for (int i = 0; i < nums.Length - 2; i++)
             {
-                currSum += nums[i];
-                for (int j = i + 1; j < nums.Length - 1; j++)
+                if (i > 0)
                 {
-                    currSum += nums[j];
-                    for (int k = j + 1; k < nums.Length; k++)
+                    if (nums[i] == nums[i - 1])
                     {
-                        currSum += nums[k];
-
-                        var diff = Math.Abs(target - currSum);
-                        if (diff < Math.Abs(target - closestSum))
-                        {
-                            closestSum = currSum;
-                        }
-
-                        currSum -= nums[k];
+                        continue;
                     }
-                    currSum -= nums[j];
                 }
-                currSum -= nums[i];
+                var currNum = nums[i];
+                var leftIndex = i + 1;
+                var rightIndex = nums.Length - 1;
+
+                while (leftIndex < rightIndex)
+                {
+                    var currSum = currNum + nums[leftIndex] + nums[rightIndex];
+                    var currDiff = Math.Abs(target - currSum);
+                    if (currDiff < Math.Abs(target - closestSum))
+                    {
+                        if (currDiff == 0)
+                        {
+                            return currSum;
+                        }
+                        closestSum = currSum;
+                    }
+                    if (currSum < target)
+                    {
+                        leftIndex++;
+                    }
+                    else
+                    {
+                        rightIndex--;
+                    }
+                }
             }
 
             return closestSum;
