@@ -119,7 +119,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Tree Inorder Travers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{6CCDC99E-6F6A-453A-9A4F-00A37D4DC2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum Closest", "3Sum Closest\3Sum Closest.csproj", "{8C4D71BB-1870-44C8-99A6-7981944BDF3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum Closest", "3Sum Closest\3Sum Closest.csproj", "{8C4D71BB-1870-44C8-99A6-7981944BDF3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balanced Binary Tree", "Balanced Binary Tree\Balanced Binary Tree.csproj", "{CC4611A2-1CB8-4725-8A74-70289A1C3C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invert Binary Tree", "Invert Binary Tree\Invert Binary Tree.csproj", "{FD7A9276-62B9-49FB-8695-CF91D8B6B907}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +367,14 @@ Global
 		{8C4D71BB-1870-44C8-99A6-7981944BDF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4D71BB-1870-44C8-99A6-7981944BDF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4D71BB-1870-44C8-99A6-7981944BDF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4611A2-1CB8-4725-8A74-70289A1C3C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4611A2-1CB8-4725-8A74-70289A1C3C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4611A2-1CB8-4725-8A74-70289A1C3C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4611A2-1CB8-4725-8A74-70289A1C3C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7A9276-62B9-49FB-8695-CF91D8B6B907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7A9276-62B9-49FB-8695-CF91D8B6B907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7A9276-62B9-49FB-8695-CF91D8B6B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7A9276-62B9-49FB-8695-CF91D8B6B907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
