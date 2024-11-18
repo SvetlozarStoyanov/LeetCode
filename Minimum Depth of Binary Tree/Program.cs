@@ -19,23 +19,18 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
         }
 
         public static int MinDepth(TreeNode root)
         {
-            DFS(1, root);
+            DFS(0, root);
             return minDepth;
         }
-
 
         private static void DFS(int currDepth, TreeNode node)
         {
             if (node is null)
-            {
-                return;
-            }
-            else if (node.left is null && node.right is null)
             {
                 if (currDepth < minDepth)
                 {
@@ -43,9 +38,19 @@
                 }
                 return;
             }
-
-            DFS(currDepth + 1, node.left);
-            DFS(currDepth + 1, node.right);
+            else if (node.left is not null && node.right is null)
+            {
+                DFS(currDepth + 1, node.left);
+            }
+            else if (node.left is null && node.right is not null)
+            {
+                DFS(currDepth + 1, node.right);
+            }
+            else
+            {
+                DFS(currDepth + 1, node.left);
+                DFS(currDepth + 1, node.right);
+            }
         }
     }
 }
