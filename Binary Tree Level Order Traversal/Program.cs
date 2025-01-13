@@ -15,7 +15,7 @@
             }
         }
 
-        private static Dictionary<int, IList<int>> levelNodes; 
+        private static Dictionary<int, IList<int>> levelNodes;
 
         static void Main(string[] args)
         {
@@ -24,20 +24,60 @@
 
         public static IList<IList<int>> LevelOrder(TreeNode root)
         {
-            levelNodes = new Dictionary<int, IList<int>>();
+            ////DFS Solution
+            //levelNodes = new Dictionary<int, IList<int>>();
 
-            DFS(0, root);
+            //DFS(0, root);
+            //foreach (var level in levelNodes)
+            //{
+            //    resultList.Add(level.Value);
+            //}
 
+
+
+
+            // BFS Solution
             var resultList = new List<IList<int>>();
-            foreach (var level in levelNodes)
-            {
-                resultList.Add(level.Value);
-            }
-
+            BFS(resultList, root);
             return resultList;
         }
 
-        public static void DFS(int level, TreeNode node)
+        private static void BFS(IList<IList<int>> resultList, TreeNode node)
+        {
+            if (node is null)
+            {
+                return;
+            }
+            var bfsQueue = new Queue<TreeNode>();
+            var nodesOnLevel = 1;
+            bfsQueue.Enqueue(node);
+            resultList.Add(new List<int>() { });
+
+            while (bfsQueue.Count > 0)
+            {
+                var curr = bfsQueue.Dequeue();
+                if (curr.left is not null)
+                {
+                    bfsQueue.Enqueue(curr.left);
+                }
+                if (curr.right is not null)
+                {
+                    bfsQueue.Enqueue(curr.right);
+                }
+                resultList[resultList.Count - 1].Add(curr.val);
+                nodesOnLevel--;
+                if (nodesOnLevel == 0)
+                {
+                    if (bfsQueue.Count > 0)
+                    {
+                        resultList.Add(new List<int>());
+                    }
+                    nodesOnLevel = bfsQueue.Count;
+                }
+            }
+        }
+
+        private static void DFS(int level, TreeNode node)
         {
             if (node is null)
             {
