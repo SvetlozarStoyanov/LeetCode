@@ -16,7 +16,7 @@
         }
 
 
-
+        private static bool isSymmetrical = true;
         static void Main(string[] args)
         {
             var result = IsSymmetric(new TreeNode(1, new TreeNode(2, new TreeNode(3, null, null), null), new TreeNode(2, new TreeNode(3, null, null))));
@@ -26,42 +26,17 @@
 
         public static bool IsSymmetric(TreeNode root)
         {
-            var leftQueue = new Queue<TreeNode>();
-            var rightQueue = new Queue<TreeNode>();
+            var queue = new Queue<TreeNode>();
 
-            LeftFavoringDFS(leftQueue, root.left);
-            RightFavoringDFS(rightQueue, root.right);
+            LeftFavoringDFS(queue, root.left);
+            RightFavoringDFS(queue, root.right);
 
-            if (leftQueue.Count != rightQueue.Count)
+            if (queue.Count > 0)
             {
                 return false;
             }
-            else
-            {
-                while (rightQueue.Count > 0)
-                {
-                    var left = leftQueue.Dequeue();
-                    var right = rightQueue.Dequeue();
 
-                    if (left is not null && right is not null)
-                    {
-                        if (left.val != right.val)
-                        {
-                            return false;
-                        }
-                    }
-                    else if (left is null && right is null)
-                    {
-
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-            }
-
-            return true;
+            return isSymmetrical;
         }
 
         private static void LeftFavoringDFS(Queue<TreeNode> queue, TreeNode node)
@@ -77,7 +52,27 @@
 
         private static void RightFavoringDFS(Queue<TreeNode> queue, TreeNode node)
         {
-            queue.Enqueue(node);
+            if (!isSymmetrical)
+            {
+                return;
+            }
+            var curr = queue.Dequeue();
+            if (curr is not null && node is not null)
+            {
+                if (curr.val != node.val)
+                {
+                    isSymmetrical = false;
+                }
+            }
+            else if (curr is null && node is null)
+            {
+
+            }
+            else
+            {
+                isSymmetrical = false;
+            }
+            
             if (node == null)
             {
                 return;
