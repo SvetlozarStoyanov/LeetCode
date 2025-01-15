@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Level Order Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symmetric Tree", "Symmetric Tree\Symmetric Tree.csproj", "{021BAE33-54BB-4F4F-9B9E-E88F279A7B96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Symmetric Integers", "Count Symmetric Integers\Count Symmetric Integers.csproj", "{8A5B99BE-66BA-45DC-997D-C92A7665EAA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{021BAE33-54BB-4F4F-9B9E-E88F279A7B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021BAE33-54BB-4F4F-9B9E-E88F279A7B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021BAE33-54BB-4F4F-9B9E-E88F279A7B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5B99BE-66BA-45DC-997D-C92A7665EAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5B99BE-66BA-45DC-997D-C92A7665EAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5B99BE-66BA-45DC-997D-C92A7665EAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5B99BE-66BA-45DC-997D-C92A7665EAA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
