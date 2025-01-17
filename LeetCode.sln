@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Symmetric Integers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Sudoku", "Valid Sudoku\Valid Sudoku.csproj", "{67763C0D-B235-4A03-9581-2DECC09993CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Number", "Single Number\Single Number.csproj", "{C3BA6194-5985-464E-BBA4-158A3858B5ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +407,10 @@ Global
 		{67763C0D-B235-4A03-9581-2DECC09993CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67763C0D-B235-4A03-9581-2DECC09993CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67763C0D-B235-4A03-9581-2DECC09993CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BA6194-5985-464E-BBA4-158A3858B5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BA6194-5985-464E-BBA4-158A3858B5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BA6194-5985-464E-BBA4-158A3858B5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BA6194-5985-464E-BBA4-158A3858B5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
