@@ -143,6 +143,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku Solver", "Sudoku Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String to Integer (atoi)", "String to Integer (atoi)\String to Integer (atoi).csproj", "{6CA67036-518E-4F9A-8555-2FB3994255F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Number", "Valid Number\Valid Number.csproj", "{A262AC43-5983-4C81-A9F0-65C2929E3C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination Sum", "Combination Sum\Combination Sum.csproj", "{954B6900-9713-45A9-B06D-170BAB155A16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +433,14 @@ Global
 		{6CA67036-518E-4F9A-8555-2FB3994255F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA67036-518E-4F9A-8555-2FB3994255F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA67036-518E-4F9A-8555-2FB3994255F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A262AC43-5983-4C81-A9F0-65C2929E3C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A262AC43-5983-4C81-A9F0-65C2929E3C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A262AC43-5983-4C81-A9F0-65C2929E3C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A262AC43-5983-4C81-A9F0-65C2929E3C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954B6900-9713-45A9-B06D-170BAB155A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954B6900-9713-45A9-B06D-170BAB155A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954B6900-9713-45A9-B06D-170BAB155A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954B6900-9713-45A9-B06D-170BAB155A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
