@@ -4,7 +4,6 @@
     {
         private static IList<int> combinationList;
         private static IList<IList<int>> matchingCombinations;
-        private static IList<string> matchingCombinationsAsStrings;
 
         static void Main(string[] args)
         {
@@ -15,40 +14,28 @@
         {
             combinationList = new List<int>();
             matchingCombinations = new List<IList<int>>();
-            matchingCombinationsAsStrings = new List<string>();
 
-            Recursion(0, target, candidates.Where(x => x <= target).OrderBy(x => x));
+            DepthFirstSearch(0, 0, target, candidates);
 
             return matchingCombinations;
         }
 
-        private static void Recursion(int currSum, int target, IEnumerable<int> candidates)
+        private static void DepthFirstSearch(int index, int currSum, int target, int[] candidates)
         {
             if (currSum == target)
             {
-                var ordered = combinationList.OrderBy(x => x);
-                var combinationAsString = string.Join(" ", ordered);
-                if (!matchingCombinationsAsStrings.Any(x => x == combinationAsString))
-                {
-                    matchingCombinationsAsStrings.Add(combinationAsString);
-                    matchingCombinations.Add(ordered.ToList());
-                }
+                matchingCombinations.Add(combinationList.ToList());
                 return;
             }
-            if (currSum > target)
+            if (index >= candidates.Length || currSum > target)
             {
                 return;
             }
-            foreach (var number in candidates)
-            {
-                if (currSum + number > target)
-                {
-                    return;
-                }
-                combinationList.Add(number);
-                Recursion(currSum + number, target, candidates);
-                combinationList.Remove(number);
-            }
+
+            combinationList.Add(candidates[index]);
+            DepthFirstSearch(index, currSum + candidates[index], target, candidates);
+            combinationList.RemoveAt(combinationList.Count - 1);
+            DepthFirstSearch(index + 1, currSum, target, candidates);
         }
     }
 }
