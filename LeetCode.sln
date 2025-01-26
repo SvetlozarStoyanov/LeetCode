@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination Sum", "Combinat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination Sum II", "Combination Sum II\Combination Sum II.csproj", "{35BAD7B4-ACB9-441C-BF0F-78F69457F471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Palindrome", "Valid Palindrome\Valid Palindrome.csproj", "{CCFE0BF4-CC04-4201-8541-6D63D174AA12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{35BAD7B4-ACB9-441C-BF0F-78F69457F471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35BAD7B4-ACB9-441C-BF0F-78F69457F471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35BAD7B4-ACB9-441C-BF0F-78F69457F471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFE0BF4-CC04-4201-8541-6D63D174AA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFE0BF4-CC04-4201-8541-6D63D174AA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFE0BF4-CC04-4201-8541-6D63D174AA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFE0BF4-CC04-4201-8541-6D63D174AA12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
