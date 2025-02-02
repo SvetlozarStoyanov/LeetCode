@@ -155,6 +155,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert Sorted Array to Bin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redundant Connection", "Redundant Connection\Redundant Connection.csproj", "{3CF7F84B-5FB6-4466-8F9B-E53A1571270A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolverAlt", "SudokuSolverAlt\SudokuSolverAlt.csproj", "{DB8E114D-3F92-4744-8AAA-00216EDCA8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fizz Buzz", "Fizz Buzz\Fizz Buzz.csproj", "{ED9AF88F-12C7-40B1-90EE-E030588BE6EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +469,14 @@ Global
 		{3CF7F84B-5FB6-4466-8F9B-E53A1571270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF7F84B-5FB6-4466-8F9B-E53A1571270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF7F84B-5FB6-4466-8F9B-E53A1571270A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8E114D-3F92-4744-8AAA-00216EDCA8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8E114D-3F92-4744-8AAA-00216EDCA8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8E114D-3F92-4744-8AAA-00216EDCA8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8E114D-3F92-4744-8AAA-00216EDCA8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9AF88F-12C7-40B1-90EE-E030588BE6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9AF88F-12C7-40B1-90EE-E030588BE6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9AF88F-12C7-40B1-90EE-E030588BE6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9AF88F-12C7-40B1-90EE-E030588BE6EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
