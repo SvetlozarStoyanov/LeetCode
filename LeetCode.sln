@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List Cycle", "Linked
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check if One String Swap Can Make Strings Equal", "Check if One String Swap Can Make Strings Equal\Check if One String Swap Can Make Strings Equal.csproj", "{B8163FD0-E93B-4CFC-9298-998A91321C24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.csproj", "{D306AE45-360D-4C78-AB31-E4888359B7EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{B8163FD0-E93B-4CFC-9298-998A91321C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8163FD0-E93B-4CFC-9298-998A91321C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8163FD0-E93B-4CFC-9298-998A91321C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
