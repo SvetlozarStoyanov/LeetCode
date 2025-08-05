@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check if One String Swap Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.csproj", "{D306AE45-360D-4C78-AB31-E4888359B7EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle II", "Pascal's Triangle II\Pascal's Triangle II.csproj", "{648D6893-95FD-4140-9803-63982F4DD0E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +491,10 @@ Global
 		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D306AE45-360D-4C78-AB31-E4888359B7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648D6893-95FD-4140-9803-63982F4DD0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648D6893-95FD-4140-9803-63982F4DD0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648D6893-95FD-4140-9803-63982F4DD0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648D6893-95FD-4140-9803-63982F4DD0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
