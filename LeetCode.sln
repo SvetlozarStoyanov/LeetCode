@@ -167,6 +167,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle II", "Pas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isomorphic Strings", "Isomorphic Strings\Isomorphic Strings.csproj", "{FCDEC8D6-BE0C-44AA-AC8B-743066F94E8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find First and Last Position of Element in Sorted Array", "Find First and Last Position of Element in Sorted Array\Find First and Last Position of Element in Sorted Array.csproj", "{1616C1C9-6F71-4B88-8025-141DCA235F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular Expression Matching", "Regular Expression Matching\Regular Expression Matching.csproj", "{5D817B0D-DF81-4944-B62B-0D8E8DDE2E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Complete Tree Nodes", "Count Complete Tree Nodes\Count Complete Tree Nodes.csproj", "{A4E6C257-A5CA-4AD7-901B-0311998E067F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +507,18 @@ Global
 		{FCDEC8D6-BE0C-44AA-AC8B-743066F94E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDEC8D6-BE0C-44AA-AC8B-743066F94E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDEC8D6-BE0C-44AA-AC8B-743066F94E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1616C1C9-6F71-4B88-8025-141DCA235F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1616C1C9-6F71-4B88-8025-141DCA235F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1616C1C9-6F71-4B88-8025-141DCA235F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1616C1C9-6F71-4B88-8025-141DCA235F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D817B0D-DF81-4944-B62B-0D8E8DDE2E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D817B0D-DF81-4944-B62B-0D8E8DDE2E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D817B0D-DF81-4944-B62B-0D8E8DDE2E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D817B0D-DF81-4944-B62B-0D8E8DDE2E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6C257-A5CA-4AD7-901B-0311998E067F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6C257-A5CA-4AD7-901B-0311998E067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6C257-A5CA-4AD7-901B-0311998E067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6C257-A5CA-4AD7-901B-0311998E067F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
