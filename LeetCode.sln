@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11505.172 d18.3
+VisualStudioVersion = 18.3.11505.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate Parenthesis", "Generate Parentheses\Generate Parenthesis.csproj", "{42551858-66B3-44F0-A5D1-5A6A0A9D8259}"
 EndProject
@@ -176,6 +176,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count and Say", "Count and Say\Count and Say.csproj", "{04A222F6-5E64-48FB-BFCB-1DC8084386E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Special Positions in a Binary Matrix", "Special Positions in a Binary Matrix\Special Positions in a Binary Matrix.csproj", "{B85EE158-702A-4D22-AB52-8AB4793EA9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First Missing Positive", "First Missing Positive\First Missing Positive.csproj", "{8407FCF9-492E-44DB-A911-83298D49E848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summary Ranges", "Summary Ranges\Summary Ranges.csproj", "{0AECCDA6-B39F-461C-AB15-BE854D55C313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -531,6 +535,14 @@ Global
 		{B85EE158-702A-4D22-AB52-8AB4793EA9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85EE158-702A-4D22-AB52-8AB4793EA9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85EE158-702A-4D22-AB52-8AB4793EA9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8407FCF9-492E-44DB-A911-83298D49E848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8407FCF9-492E-44DB-A911-83298D49E848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8407FCF9-492E-44DB-A911-83298D49E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8407FCF9-492E-44DB-A911-83298D49E848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AECCDA6-B39F-461C-AB15-BE854D55C313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AECCDA6-B39F-461C-AB15-BE854D55C313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AECCDA6-B39F-461C-AB15-BE854D55C313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AECCDA6-B39F-461C-AB15-BE854D55C313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
