@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summary Ranges", "Summary R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Anagram", "Valid Anagram\Valid Anagram.csproj", "{B608049F-096F-4901-A232-5E7B774C6C91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Paths", "Binary Tree Paths\Binary Tree Paths.csproj", "{B2302FF2-0C83-4DE3-A802-69EB779EC292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -549,6 +551,10 @@ Global
 		{B608049F-096F-4901-A232-5E7B774C6C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B608049F-096F-4901-A232-5E7B774C6C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B608049F-096F-4901-A232-5E7B774C6C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2302FF2-0C83-4DE3-A802-69EB779EC292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2302FF2-0C83-4DE3-A802-69EB779EC292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2302FF2-0C83-4DE3-A802-69EB779EC292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2302FF2-0C83-4DE3-A802-69EB779EC292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
