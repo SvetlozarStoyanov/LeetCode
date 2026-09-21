@@ -187,6 +187,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Paths", "Binary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happy_Number", "Happy_Number\Happy_Number.csproj", "{8CD4E990-9088-4A45-8985-9D4866ADB59E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleOverlap", "RectangleOverlap\RectangleOverlap.csproj", "{810C80D5-47AE-461E-9D8D-828B6D2DB478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +563,10 @@ Global
 		{8CD4E990-9088-4A45-8985-9D4866ADB59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD4E990-9088-4A45-8985-9D4866ADB59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD4E990-9088-4A45-8985-9D4866ADB59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810C80D5-47AE-461E-9D8D-828B6D2DB478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810C80D5-47AE-461E-9D8D-828B6D2DB478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810C80D5-47AE-461E-9D8D-828B6D2DB478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810C80D5-47AE-461E-9D8D-828B6D2DB478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
