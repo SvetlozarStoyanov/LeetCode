@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleOverlap", "Rectang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply Strings", "Multiply Strings\Multiply Strings.csproj", "{F9F70251-0B3C-4B00-A9C6-5D779AC1C60C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Linked List Elements", "Remove Linked List Elements\Remove Linked List Elements.csproj", "{CF14023F-3A59-4BD5-9187-0C00645054B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,10 @@ Global
 		{F9F70251-0B3C-4B00-A9C6-5D779AC1C60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F70251-0B3C-4B00-A9C6-5D779AC1C60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F70251-0B3C-4B00-A9C6-5D779AC1C60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF14023F-3A59-4BD5-9187-0C00645054B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF14023F-3A59-4BD5-9187-0C00645054B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF14023F-3A59-4BD5-9187-0C00645054B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF14023F-3A59-4BD5-9187-0C00645054B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
