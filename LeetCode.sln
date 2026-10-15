@@ -195,6 +195,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Linked List Elements
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ugly Number", "Ugly Number\Ugly Number.csproj", "{E65F3D55-436C-42A9-95D7-14A869DE155D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Digits", "Add Digits\Add Digits.csproj", "{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -585,6 +587,10 @@ Global
 		{E65F3D55-436C-42A9-95D7-14A869DE155D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65F3D55-436C-42A9-95D7-14A869DE155D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65F3D55-436C-42A9-95D7-14A869DE155D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
