@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ugly Number", "Ugly Number\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Digits", "Add Digits\Add Digits.csproj", "{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing Number", "Missing Number\Missing Number.csproj", "{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -591,6 +593,10 @@ Global
 		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CA9D0C-5FA2-454D-99CF-B5B4E1EDF61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
