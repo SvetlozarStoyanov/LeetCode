@@ -199,6 +199,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Digits", "Add Digits\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing Number", "Missing Number\Missing Number.csproj", "{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Pattern", "Word Pattern\Word Pattern.csproj", "{875FE931-80E6-4E83-BB74-2D17C7CC5F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -597,6 +599,10 @@ Global
 		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8E0C92-0708-406E-AD68-F4AF1FD5C107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875FE931-80E6-4E83-BB74-2D17C7CC5F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875FE931-80E6-4E83-BB74-2D17C7CC5F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875FE931-80E6-4E83-BB74-2D17C7CC5F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875FE931-80E6-4E83-BB74-2D17C7CC5F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
