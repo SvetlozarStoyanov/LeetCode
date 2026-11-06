@@ -215,6 +215,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse String", "Reverse S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Vowels of a String", "Reverse Vowels of a String\Reverse Vowels of a String.csproj", "{F08066DC-FDA5-436A-9355-05668A85156F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection of Two Arrays", "Intersection of Two Arrays\Intersection of Two Arrays.csproj", "{2F450AA4-8A71-4BA7-A572-9CEF27996092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -645,6 +647,10 @@ Global
 		{F08066DC-FDA5-436A-9355-05668A85156F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08066DC-FDA5-436A-9355-05668A85156F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08066DC-FDA5-436A-9355-05668A85156F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F450AA4-8A71-4BA7-A572-9CEF27996092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F450AA4-8A71-4BA7-A572-9CEF27996092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F450AA4-8A71-4BA7-A572-9CEF27996092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F450AA4-8A71-4BA7-A572-9CEF27996092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
