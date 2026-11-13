@@ -219,6 +219,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection of Two Arrays"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find the Distance Value Between Two Arrays", "Find the Distance Value Between Two Arrays\Find the Distance Value Between Two Arrays.csproj", "{88283361-50B5-40C1-8A45-22B84707D3BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detect Capital", "Detect Capital\Detect Capital.csproj", "{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -657,6 +659,10 @@ Global
 		{88283361-50B5-40C1-8A45-22B84707D3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88283361-50B5-40C1-8A45-22B84707D3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88283361-50B5-40C1-8A45-22B84707D3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
