@@ -221,6 +221,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find the Distance Value Bet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detect Capital", "Detect Capital\Detect Capital.csproj", "{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Digit Sum of a String", "Calculate Digit Sum of a String\Calculate Digit Sum of a String.csproj", "{2BB69694-2C71-4904-8C4C-A96FE1EBE7EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -663,6 +665,10 @@ Global
 		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F8DDC42-32CA-4A3A-8358-1B67938AC1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB69694-2C71-4904-8C4C-A96FE1EBE7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB69694-2C71-4904-8C4C-A96FE1EBE7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB69694-2C71-4904-8C4C-A96FE1EBE7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB69694-2C71-4904-8C4C-A96FE1EBE7EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
